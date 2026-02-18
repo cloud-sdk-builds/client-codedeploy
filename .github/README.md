@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-codedeploy`](https://www.npmjs.com/package/@aws-sdk/client-codedeploy/v/3.987.0).
+[`@aws-sdk/client-codedeploy`](https://www.npmjs.com/package/@aws-sdk/client-codedeploy/v/3.988.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codedeploy@3.987.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codedeploy@3.988.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-ko2VWrGvrKIuHqJtkfCGXw4lDyIfAGGIlVfGPWCdUJFIj8ykHrfC74TS2I7G/9gH
+sha384-sH6Q+5L7sDROnZ01vPHqLh+2t8u7G/oopHTAZ7MgdPfvK0/pdNPJ72onQb626Uve
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-codedeploy": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codedeploy@3.987.0/index.min.mjs"
+            "@aws-sdk/client-codedeploy": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codedeploy@3.988.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codedeploy@3.987.0/index.min.mjs": "sha384-ko2VWrGvrKIuHqJtkfCGXw4lDyIfAGGIlVfGPWCdUJFIj8ykHrfC74TS2I7G/9gH"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codedeploy@3.988.0/index.min.mjs": "sha384-sH6Q+5L7sDROnZ01vPHqLh+2t8u7G/oopHTAZ7MgdPfvK0/pdNPJ72onQb626Uve"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-codedeploy": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codedeploy@3.987.0/index.min.mjs"
+                        "@aws-sdk/client-codedeploy": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codedeploy@3.988.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codedeploy@3.987.0/index.min.mjs": "sha384-ko2VWrGvrKIuHqJtkfCGXw4lDyIfAGGIlVfGPWCdUJFIj8ykHrfC74TS2I7G/9gH"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codedeploy@3.988.0/index.min.mjs": "sha384-sH6Q+5L7sDROnZ01vPHqLh+2t8u7G/oopHTAZ7MgdPfvK0/pdNPJ72onQb626Uve"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.987.0`)
+* Always pin to a specific version (`@3.988.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-codedeploy/blob/refs/tags/3.987.0/LICENSE
+https://github.com/cloud-sdk-builds/client-codedeploy/blob/refs/tags/3.988.0/LICENSE
 ```
 
 ---
